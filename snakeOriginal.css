@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+}
+
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 600px;     /* Change these to fit monitor size, i just have a big monitor sorry */
+  height: 600px;    /* Change these to fit monitor size, i just have a big monitor sorry */
+  position: absolute;
+  border: 4px solid black; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*#loss {
+  
+  width: 600px;
+  height: 600px;
+
+  border: 4px solid black; 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 500;
+}*/
+
+.score {
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer {
+  position:absolute; left:655px; top:790px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.reset {
+  background-color: #4370F1;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.reset:hover {
+  background-color: #1D50F1;
+}
+
+.reset:active {
+  background-color: #4d7ef1;
+
+}
+
+.status {
+  display: block;
+  font-size: 20px;
+}
